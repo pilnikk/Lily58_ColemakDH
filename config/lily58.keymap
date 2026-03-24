@@ -22,11 +22,11 @@
 
             display-name = "Base";
             bindings = <
-&kp ESC    &kp N1  &kp N2  &kp N3    &kp N4    &kp N5                         &kp N6  &kp N7    &kp N8     &kp N9   &kp N0    &kp GRAVE
-&kp TAB    &kp Q   &kp W   &kp F     &kp P     &kp B                          &kp J   &kp L     &kp U      &kp Y    &kp SEMI  &kp MINUS
-&kp LCTRL  &kp A   &kp R   &kp S     &kp T     &kp G                          &kp M   &kp N     &kp E      &kp I    &kp O     &kp SQT
-&kp LSHFT  &kp Z   &kp X   &kp C     &kp D     &kp V   &kp LBKT     &kp RBKT  &kp K   &kp H     &kp COMMA  &kp DOT  &kp FSLH  &kp RSHFT
-                           &kp LALT  &kp LGUI  &mo 1   &kp SPACE    &kp RET   &mo 2   &kp BSPC  &kp RGUI
+&kp ESC        &kp N1  &kp N2  &kp N3    &kp N4            &kp N5                         &kp N6  &kp N7             &kp N8     &kp N9   &kp N0               &mt PIPE NON_US_BACKSLASH
+&kp TAB        &kp Q   &kp W   &kp F     &kp P             &kp B                          &kp J   &kp L              &kp U      &kp Y    &mt COLON SEMICOLON  &mt UNDERSCORE MINUS
+&kp BACKSPACE  &kp A   &kp R   &kp S     &mt LEFT_SHIFT T  &kp G                          &kp M   &mt RIGHT_SHIFT N  &kp E      &kp I    &kp O                &mt DOUBLE_QUOTES SQT
+&kp LSHFT      &kp Z   &kp X   &kp C     &kp D             &kp V   &kp LBKT     &kp RBKT  &kp K   &kp H              &kp COMMA  &kp DOT  &kp FSLH             &mt PLUS EQUAL
+                               &kp LALT  &kp LGUI          &mo 1   &kp SPACE    &kp RET   &mo 2   &kp RIGHT_ALT      &kp RGUI
             >;
         };
 
@@ -58,11 +58,11 @@
 
             display-name = "Raise";
             bindings = <
-&trans     &trans  &trans  &trans   &trans   &trans                     &trans       &trans     &trans     &trans    &trans     &trans
-&kp GRAVE  &kp N1  &kp N2  &kp N3   &kp N4   &kp N5                     &kp N6       &kp N7     &kp N8     &kp N9    &kp N0     &trans
-&kp F1     &kp F2  &kp F3  &kp F4   &kp F5   &kp F6                     &trans       &kp LEFT   &kp DOWN   &kp UP    &kp RIGHT  &trans
-&kp F7     &kp F8  &kp F9  &kp F10  &kp F11  &kp F12  &trans    &trans  &kp KP_PLUS  &kp MINUS  &kp EQUAL  &kp LBKT  &kp RBKT   &kp BSLH
-                           &trans   &trans   &trans   &trans    &trans  &trans       &trans     &trans
+&trans     &trans           &trans        &trans        &trans        &trans                         &trans        &trans         &trans        &trans                &trans                 &trans
+&kp GRAVE  &kp EXCLAMATION  &kp AT_SIGN   &kp HASH      &kp DOLLAR    &kp PERCENT                    &kp LCTRL     &kp AMPERSAND  &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans
+&kp F1     &kp NUMBER_1     &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp N5                         &kp NUMBER_6  &kp N7         &kp N8        &kp N9                &kp N0                 &trans
+&kp F7     &kp F8           &kp F9        &kp F10       &kp F11       &kp F12      &trans    &trans  &none         &kp MINUS      &kp EQUAL     &none                 &none                  &none
+                                          &trans        &trans        &trans       &trans    &trans  &trans        &trans         &trans
             >;
         };
 
